@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Guest List</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+
+</head>
+<body>
+<center>
+<h3 id="b" style="margin-top: 20px; margin-bottom: 20px; ">
+	<u>Guest List</u>
+</h3>
+
+<div id="rows">
+
+<input type="text" placeholder="Enter name" id="name1">
+<button onclick="submit()" id="submit_button">Submit</button>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	
+<hr>
+
+<div id="display_name">
+</div>
+<hr>
+
+	<div id="Show1">
+		<button onclick="show()" id="show">Show</button>
+		<hr><p id="p1"><hr></p></div>
+
+<button onclick="sorting()" id="sort_button">
+	Sorted List
+</button>
+
+
+	<hr><div id="sorted"></div><hr>
+    </div>
+	<input type="text" placeholder="Search name" id="s1">&nbsp;&nbsp;&nbsp;
+	<button onclick="searching()" id="srch">Search</button>
+	<p id="p2"></p>
+    
+</center>
+		
+</body>
+</html>

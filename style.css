@@ -1,0 +1,114 @@
+body{
+background-image:url("rt.jpg");
+background-size: cover;
+}
+
+#submit_button
+{
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   display: block;
+   background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)
+}
+
+#submit_button:hover {
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+  }
+
+#sort_button{
+	
+	display: none;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   display: block;
+   background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)
+}
+
+#sort_button:hover {
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+  }
+
+  #show{
+	padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   display: block;
+   background-image: linear-gradient(to right, #f857a6 0%, #ff5858  51%, #f857a6  100%)
+  }
+
+  #show:hover {
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+  }
+
+  
+  #srch{
+    padding: 15px 45px;
+    background-size: 200% auto;
+    display: block;
+    transition: 0.5s;
+   background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%)
+  }
+  
+  #srch:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    }
+
+input
+{
+	margin: 10px;
+}
+.display_name_with_commas
+{
+	border: 1px solid green;
+    padding: 10px;
+	background-color: greenyellow;
+	border-radius: 10px;
+    width: 50%;
+}
+
+#display_name_without_commas
+{
+	border: 1px solid red;
+    padding: 10px;
+    background-color: lightcoral;
+	border-radius: 10px;
+    width: 50%;
+}
+ 
+#p1{
+  color: crimson;
+}
+
+#display_name{
+  color: crimson;
+}
+
+#b{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: cursive;
+}
